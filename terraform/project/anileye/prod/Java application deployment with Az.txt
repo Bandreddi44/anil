@@ -1,0 +1,25 @@
+Java application deployment with Azure Devops
+
+Project steps:
+
+Prepare the infrastructure ==> MYSQL Database and web app on azure 
+
+Connection string ==>  myvsql://demo143.mysql.database.azure.com:3306/alm?useSSL=true"&requireSSL=false&autoReconnect=true&user=migadmin&password=Microsoft@123
+
+Prepare the Source code repository locally ==> I already set up the souce from some of the online github.
+Azure Boards -- to track the work
+Azure repos -- equal to github and source code repository
+pipeline -- to automate task sequense and to create bulid and release pipeline.
+test plans -- to handle manual or automate testing
+artifacts -- to store library
+
+Create bulid pipeline
+Create release pipeline
+
+--DskipITs --settings ./maven/settings.xml
+
+**/target/*.war
+*.sql
+
+Enable CI & CD
+Run the pipeline
